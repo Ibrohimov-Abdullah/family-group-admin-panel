@@ -1,0 +1,60 @@
+{
+  "title": "Admin panel — choose the layout",
+  "question": "Colours and fonts stay Family Group's own. Pick how the admin is organised.",
+  "options": [
+    {
+      "id": "inbox",
+      "label": "Action inbox",
+      "kicker": "THE ROLL",
+      "lineage": "mail client three-pane + airport gate board",
+      "thesis": "Everything that needs a person — new orders, call-back requests, low stock, expiring certificates — lands in one queue that stays lit until someone opens it.",
+      "palette": ["#2B2118", "#C9A867", "#FBF8F2", "#FFFFFF", "#B5462F"],
+      "materials": ["espresso icon rail", "lit unread rows", "bottle thumbnails"],
+      "viewport": "Narrow espresso rail on the left; a queue list of today's items in the middle; the opened order (customer, map pin, items, status buttons) on the right.",
+      "risk": "Analytics and catalog pages sit one click further away than in a classic dashboard.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "icon rail", "x": 0, "y": 0, "w": 1, "h": 10, "accent": true},
+        {"label": "top bar · search · language", "x": 1, "y": 0, "w": 11, "h": 1},
+        {"label": "queue: new orders, requests, low stock", "x": 1, "y": 1, "w": 4, "h": 9},
+        {"label": "opened order: customer, map, items, status", "x": 5, "y": 1, "w": 7, "h": 9}
+      ]}
+    },
+    {
+      "id": "counter",
+      "label": "Pharmacy counter",
+      "lineage": "classic admin: grouped side menu + dashboard",
+      "thesis": "A familiar side menu grouped by job (Sales, Catalog, Network, System); the home screen shows today's queue, the money, and stock drawn as bottles filling up.",
+      "palette": ["#2B2118", "#C9A867", "#FBF8F2", "#FFFFFF", "#4F7A5A"],
+      "materials": ["espresso side menu", "bottle fill-line stock", "warm ivory ground"],
+      "viewport": "Wide espresso side menu with section labels; KPI strip across the top; revenue chart and today's queue side by side; low-stock bottles below.",
+      "risk": "The most familiar layout of the three, so it's the least surprising.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "side menu by job", "x": 0, "y": 0, "w": 2, "h": 10, "accent": true},
+        {"label": "top bar", "x": 2, "y": 0, "w": 10, "h": 1},
+        {"label": "KPI strip", "x": 2, "y": 1, "w": 10, "h": 2},
+        {"label": "revenue chart", "x": 2, "y": 3, "w": 6, "h": 4},
+        {"label": "today's queue", "x": 8, "y": 3, "w": 4, "h": 4},
+        {"label": "stock as bottles", "x": 2, "y": 7, "w": 10, "h": 3}
+      ]}
+    },
+    {
+      "id": "ledger",
+      "label": "Owner's ledger",
+      "lineage": "top navigation + analytics-first reports",
+      "thesis": "Top navigation and a wide, numbers-first home: revenue, top sellers and a map of sales by city lead; Ctrl+K jumps to any order or product.",
+      "palette": ["#2B2118", "#9A7638", "#FBF8F2", "#FFFFFF", "#3E5C76"],
+      "materials": ["espresso top bar", "city sales map", "tabular figures"],
+      "viewport": "Espresso top bar with section tabs; a row of big KPI numbers with small trend lines; sales map of Uzbekistan beside top sellers; orders table below.",
+      "risk": "Best for the owner; operators processing orders all day get fewer shortcuts.",
+      "wireframe": {"cols": 12, "rows": 10, "regions": [
+        {"label": "top bar with section tabs", "x": 0, "y": 0, "w": 12, "h": 1, "accent": true},
+        {"label": "KPI numbers + trends", "x": 0, "y": 1, "w": 12, "h": 2},
+        {"label": "sales by city map", "x": 0, "y": 3, "w": 7, "h": 4},
+        {"label": "top sellers", "x": 7, "y": 3, "w": 5, "h": 4},
+        {"label": "orders table", "x": 0, "y": 7, "w": 12, "h": 3}
+      ]}
+    }
+  ],
+  "reroll": true,
+  "steer": true
+}

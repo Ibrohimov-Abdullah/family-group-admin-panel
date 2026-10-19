@@ -1,0 +1,77 @@
+/* Family Group admin — design tokens. Read by role; values come from the shop's identity. */
+:root {
+  /* shell */
+  --espresso: #2B2118;
+  --espresso-2: #3A2D21;
+  --espresso-3: #1E1711;
+  --rail-text: #E9DFCF;
+  --rail-muted: #A79883;
+
+  /* accent */
+  --gold: #C9A867;
+  --gold-deep: #9A7638;
+  --gold-ink: #7A5C26;
+  --gold-soft: #F1E6CF;
+  --gold-tint: #FBF5E8;
+
+  /* grounds */
+  --ground: #F6F1E9;
+  --panel: #FFFFFF;
+  --panel-2: #FBF8F3;
+  --line: #E9E0D2;
+  --line-2: #D8CBB7;
+
+  /* ink */
+  --ink: #241C15;
+  --ink-2: #5A4F43;
+  --ink-3: #75695B;
+
+  /* state */
+  --s-new: #A86A12;        --s-new-bg: #FBEFD9;
+  --s-confirmed: #3E5C76;  --s-confirmed-bg: #E7EDF3;
+  --s-packed: #5C5A8C;     --s-packed-bg: #ECEBF5;
+  --s-shipping: #2F6C7A;   --s-shipping-bg: #E2EFF1;
+  --s-delivered: #3D7651;  --s-delivered-bg: #E3F0E7;
+  --s-cancelled: #A9432D;  --s-cancelled-bg: #F7E5E0;
+  --danger: #A9432D;       --danger-bg: #F7E5E0;
+  --success: #3D7651;      --success-bg: #E3F0E7;
+  --warning: #A86A12;      --warning-bg: #FBEFD9;
+  --info: #3E5C76;         --info-bg: #E7EDF3;
+
+  /* data series (charts) */
+  --series-1: #9A7638;
+  --series-2: #2F6C7A;
+  --series-3: #A9432D;
+  --series-4: #5C5A8C;
+  --series-5: #3D7651;
+
+  /* type */
+  --f-ui: Manrope, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --f-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --t-xs: 11.5px;
+  --t-sm: 12.5px;
+  --t-md: 13.5px;
+  --t-base: 14px;
+  --t-lg: 16px;
+  --t-xl: 19px;
+  --t-2xl: 24px;
+  --t-title: 30px;
+
+  /* space & shape */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 14px;
+  --gap: 16px;
+  --pad: 24px;
+  --rail-w: 248px;
+  --rail-w-collapsed: 72px;
+  --topbar-h: 60px;
+
+  --sh-1: 0 1px 2px rgba(43, 33, 24, .06);
+  --sh-2: 0 4px 14px -4px rgba(43, 33, 24, .12), 0 1px 3px rgba(43, 33, 24, .06);
+  --sh-3: 0 24px 60px -18px rgba(30, 23, 17, .35), 0 4px 12px rgba(30, 23, 17, .08);
+
+  --ease: cubic-bezier(.16, 1, .3, 1);
+  --fast: 160ms;
+  --med: 220ms;
+}

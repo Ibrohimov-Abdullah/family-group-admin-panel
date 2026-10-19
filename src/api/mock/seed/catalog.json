@@ -1,0 +1,1415 @@
+{
+ "products": [
+  {
+   "id": 1,
+   "img": "omega-3.webp",
+   "cat": 4,
+   "price": 89900,
+   "badge": "new",
+   "ben": [
+    6,
+    7,
+    9
+   ],
+   "name": {
+    "uz": "Omega-3",
+    "ru": "Omega-3"
+   },
+   "dose": {
+    "uz": "1000 mg · 60 kapsula",
+    "ru": "1000 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Omega-3 yog' kislotalari",
+      "ru": "Омега-3 жирные кислоты"
+     },
+     "a": "1000 mg"
+    },
+    {
+     "n": {
+      "uz": "EPA",
+      "ru": "EPA"
+     },
+     "a": "600 mg"
+    },
+    {
+     "n": {
+      "uz": "DHA",
+      "ru": "DHA"
+     },
+     "a": "400 mg"
+    }
+   ],
+   "desc": {
+    "uz": "Baliq yog'idan olingan omega-3 yog' kislotalari: har bir kapsulada EPA va DHA. Ratsionida yog'li baliq kam bo'lganlar uchun qulay qo'shimcha.",
+    "ru": "Омега-3 жирные кислоты из рыбьего жира: EPA и DHA в каждой капсуле. Удобное дополнение для тех, в чьём рационе мало жирной рыбы."
+   },
+   "use": {
+    "uz": "EPA va DHA — yurak, miya va ko'rish uchun muhim bo'lgan yog' kislotalari manbai.",
+    "ru": "Источник EPA и DHA — жирных кислот, важных для сердца, мозга и зрения."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Omega-3 yog' kislotalari 1000 mg",
+     "EPA 600 mg",
+     "DHA 400 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Омега-3 жирные кислоты 1000 мг",
+     "EPA 600 мг",
+     "DHA 400 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 2,
+   "img": "inozitol.webp",
+   "cat": 0,
+   "price": 134900,
+   "badge": "new",
+   "ben": [
+    13,
+    1
+   ],
+   "name": {
+    "uz": "Inozitol",
+    "ru": "Инозитол"
+   },
+   "dose": {
+    "uz": "1000 mg · 60 kapsula",
+    "ru": "1000 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Mio-inozitol",
+      "ru": "Мио-инозитол"
+     },
+     "a": "1000 mg"
+    },
+    {
+     "n": {
+      "uz": "D-xiro-inozitol",
+      "ru": "D-хиро-инозитол"
+     },
+     "a": "50 mg"
+    }
+   ],
+   "desc": {
+    "uz": "Mio-inozitol va D-xiro-inozitolning birikmasi. Ayollar sog'lig'i uchun mashhur formula, har bir kapsulada aniq dozalangan.",
+    "ru": "Сочетание мио-инозитола и D-хиро-инозитола. Популярная формула для женского здоровья с точной дозировкой в каждой капсуле."
+   },
+   "use": {
+    "uz": "Ayollarning gormonal muvozanati va kundalik tetikligini qo'llab-quvvatlashga mo'ljallangan.",
+    "ru": "Предназначен для поддержки гормонального баланса и бодрости у женщин."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Mio-inozitol 1000 mg",
+     "D-xiro-inozitol 50 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Мио-инозитол 1000 мг",
+     "D-хиро-инозитол 50 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 3,
+   "img": "vitamin-d3-k2.webp",
+   "cat": 3,
+   "price": 116800,
+   "badge": "new",
+   "ben": [
+    4,
+    0,
+    6
+   ],
+   "name": {
+    "uz": "Vitamin D3 + K2",
+    "ru": "Vitamin D3 + K2"
+   },
+   "dose": {
+    "uz": "5000 XB + 100 mkg · 60 kapsula",
+    "ru": "5000 МЕ + 100 мкг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "D3 vitamini",
+      "ru": "Витамин D3"
+     },
+     "a": "5000 XB (125 mkg)"
+    },
+    {
+     "n": {
+      "uz": "K2 vitamini",
+      "ru": "Витамин K2"
+     },
+     "a": "100 mkg"
+    }
+   ],
+   "desc": {
+    "uz": "D3 va K2 vitaminlarining birgalikdagi formulasi: bir kapsulada 5000 XB D3 va 100 mkg K2.",
+    "ru": "Совместная формула витаминов D3 и K2: 5000 МЕ D3 и 100 мкг K2 в одной капсуле."
+   },
+   "use": {
+    "uz": "D3 kalsiyning so'rilishiga, K2 esa uning suyaklarda to'g'ri ishlatilishiga hissa qo'shadi.",
+    "ru": "D3 способствует усвоению кальция, а K2 — его правильному использованию в костях."
+   },
+   "how": {
+    "uz": "Yuqori dozali vitamin: shifokor tavsiyasi bilan, qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik va emizish davrida avval shifokor bilan maslahatlashing.",
+    "ru": "Витамин в высокой дозировке: принимайте по рекомендации врача и согласно инструкции на упаковке. При беременности и кормлении грудью предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "D3 vitamini 5000 XB (125 mkg)",
+     "K2 vitamini 100 mkg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Витамин D3 5000 МЕ (125 мкг)",
+     "Витамин K2 100 мкг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 4,
+   "img": "collagen.webp",
+   "cat": 0,
+   "price": 138800,
+   "badge": "new",
+   "ben": [
+    3,
+    10
+   ],
+   "name": {
+    "uz": "Collagen",
+    "ru": "Collagen"
+   },
+   "dose": {
+    "uz": "1000 mg · 60 kapsula",
+    "ru": "1000 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Kollagen (I, II, III turlari)",
+      "ru": "Коллаген (I, II, III типы)"
+     },
+     "a": "1000 mg"
+    }
+   ],
+   "desc": {
+    "uz": "I, II va III turdagi kollagen — teri, soch va bo'g'imlar tarkibidagi asosiy oqsil.",
+    "ru": "Коллаген I, II и III типов — основной белок кожи, волос и суставов."
+   },
+   "use": {
+    "uz": "Teri elastikligi va bo'g'imlar harakatchanligini qo'llab-quvvatlash uchun.",
+    "ru": "Для поддержки упругости кожи и подвижности суставов."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Kollagen (I, II, III turlari) 1000 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Коллаген (I, II, III типы) 1000 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 5,
+   "img": "coenzyme-q10.webp",
+   "cat": 4,
+   "price": 144900,
+   "badge": "new",
+   "ben": [
+    6,
+    1
+   ],
+   "name": {
+    "uz": "Coenzyme Q10",
+    "ru": "Coenzyme Q10"
+   },
+   "dose": {
+    "uz": "100 mg · 60 kapsula",
+    "ru": "100 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Koenzim Q10",
+      "ru": "Коэнзим Q10"
+     },
+     "a": "100 mg"
+    }
+   ],
+   "desc": {
+    "uz": "Har bir kapsulada 100 mg koenzim Q10 — hujayralar energiya almashinuvida ishtirok etadigan modda.",
+    "ru": "100 мг коэнзима Q10 в каждой капсуле — вещества, участвующего в энергетическом обмене клеток."
+   },
+   "use": {
+    "uz": "Faol hayot tarzi va yurak salomatligiga e'tibor beradiganlar uchun.",
+    "ru": "Для тех, кто ведёт активный образ жизни и следит за здоровьем сердца."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Koenzim Q10 100 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Коэнзим Q10 100 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 6,
+   "img": "vision.webp",
+   "cat": 4,
+   "price": 104900,
+   "badge": "new",
+   "ben": [
+    9
+   ],
+   "name": {
+    "uz": "Vision",
+    "ru": "Vision"
+   },
+   "dose": {
+    "uz": "Lutein + Zeaksantin · 45 kapsula",
+    "ru": "Лютеин + Зеаксантин · 45 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Lutein va zeaksantin — ko'zning to'r pardasida to'planadigan tabiiy karotinoidlar.",
+    "ru": "Лютеин и зеаксантин — натуральные каротиноиды, накапливающиеся в сетчатке глаза."
+   },
+   "use": {
+    "uz": "Ekran oldida ko'p vaqt o'tkazadiganlar uchun ko'rish salomatligini qo'llab-quvvatlash.",
+    "ru": "Поддержка здоровья глаз для тех, кто проводит много времени за экраном."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Lutein",
+     "Zeaksantin",
+     "45 kapsula"
+    ],
+    "ru": [
+     "Лютеин",
+     "Зеаксантин",
+     "45 капсул"
+    ]
+   }
+  },
+  {
+   "id": 7,
+   "img": "multivitamin-kids.webp",
+   "cat": 2,
+   "price": 99800,
+   "badge": "new",
+   "ben": [
+    8,
+    0
+   ],
+   "name": {
+    "uz": "Multivitamin Kids",
+    "ru": "Multivitamin Kids"
+   },
+   "dose": {
+    "uz": "Bolalar uchun · 60 kapsula",
+    "ru": "Для детей · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Bolalar uchun multivitamin kompleksi — o'sish davridagi kundalik ehtiyojlar uchun.",
+    "ru": "Мультивитаминный комплекс для детей — для ежедневных потребностей в период роста."
+   },
+   "use": {
+    "uz": "Bolaning ratsionini vitaminlar bilan to'ldirishga yordam beradi.",
+    "ru": "Помогает дополнить рацион ребёнка витаминами."
+   },
+   "how": {
+    "uz": "Bolaning yoshiga mos dozani qadoqdagi yo'riqnomadan oling; qabul qilishdan oldin pediatr bilan maslahatlashing.",
+    "ru": "Дозировку по возрасту смотрите в инструкции на упаковке; перед приёмом проконсультируйтесь с педиатром."
+   },
+   "comp": {
+    "uz": [
+     "Bolalar uchun multivitamin kompleksi",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Мультивитаминный комплекс для детей",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 8,
+   "img": "vitamin-d3.webp",
+   "cat": 3,
+   "price": 92900,
+   "badge": "",
+   "ben": [
+    0,
+    4
+   ],
+   "name": {
+    "uz": "Vitamin D3",
+    "ru": "Vitamin D3"
+   },
+   "dose": {
+    "uz": "5000 XB · 60 kapsula",
+    "ru": "5000 МЕ · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "D3 vitamini (xolekalsiferol)",
+      "ru": "Витамин D3 (холекальциферол)"
+     },
+     "a": "5000 XB (125 mkg)"
+    }
+   ],
+   "desc": {
+    "uz": "Yuqori dozali D3 vitamini — quyosh kam bo'lgan oylarda ayniqsa dolzarb.",
+    "ru": "Витамин D3 в высокой дозировке — особенно актуален в месяцы с недостатком солнца."
+   },
+   "use": {
+    "uz": "Immunitet va suyaklarning odatiy holatini saqlash uchun zarur vitamin.",
+    "ru": "Витамин, необходимый для нормального состояния иммунитета и костей."
+   },
+   "how": {
+    "uz": "Yuqori dozali vitamin: shifokor tavsiyasi bilan, qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik va emizish davrida avval shifokor bilan maslahatlashing.",
+    "ru": "Витамин в высокой дозировке: принимайте по рекомендации врача и согласно инструкции на упаковке. При беременности и кормлении грудью предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "D3 vitamini 5000 XB (125 mkg)",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Витамин D3 5000 МЕ (125 мкг)",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 9,
+   "img": "memory.webp",
+   "cat": 4,
+   "price": 118800,
+   "badge": "",
+   "ben": [
+    7,
+    1
+   ],
+   "name": {
+    "uz": "Memory",
+    "ru": "Memory"
+   },
+   "dose": {
+    "uz": "Shilajit · 60 kapsula",
+    "ru": "Шиладжит · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Shilajit (mumiyo) asosidagi formula — diqqat va aqliy faollik uchun.",
+    "ru": "Формула на основе шиладжита (мумиё) — для внимания и умственной активности."
+   },
+   "use": {
+    "uz": "Aqliy yuklama yuqori bo'lgan kunlarda tetiklikni saqlashga mo'ljallangan.",
+    "ru": "Предназначена для поддержания бодрости в дни высокой умственной нагрузки."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Shilajit (mumiyo)",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Шиладжит (мумиё)",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 10,
+   "img": "bronx.webp",
+   "cat": 6,
+   "price": 89900,
+   "badge": "",
+   "ben": [
+    12,
+    0
+   ],
+   "name": {
+    "uz": "Bronx",
+    "ru": "Bronx"
+   },
+   "dose": {
+    "uz": "NAC 600 mg · 60 kapsula",
+    "ru": "NAC 600 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "N-atsetilsistein (NAC)",
+      "ru": "N-ацетилцистеин (NAC)"
+     },
+     "a": "600 mg"
+    }
+   ],
+   "desc": {
+    "uz": "N-atsetilsistein (NAC) — har bir kapsulada 600 mg.",
+    "ru": "N-ацетилцистеин (NAC) — 600 мг в каждой капсуле."
+   },
+   "use": {
+    "uz": "Nafas yo'llari salomatligiga e'tibor beradiganlar uchun.",
+    "ru": "Для тех, кто заботится о здоровье дыхательных путей."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "N-atsetilsistein (NAC) 600 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "N-ацетилцистеин (NAC) 600 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 11,
+   "img": "qora-sedana.webp",
+   "cat": 6,
+   "price": 76900,
+   "badge": "",
+   "ben": [
+    0,
+    12
+   ],
+   "name": {
+    "uz": "Qora Sedana yog'i",
+    "ru": "Масло чёрного тмина"
+   },
+   "dose": {
+    "uz": "500 mg · 60 kapsula",
+    "ru": "500 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Qora sedana (Nigella sativa) yog'i",
+      "ru": "Масло чёрного тмина (Nigella sativa)"
+     },
+     "a": "500 mg"
+    }
+   ],
+   "desc": {
+    "uz": "Qora sedana (Nigella sativa) yog'i qulay kapsula shaklida — har birida 500 mg.",
+    "ru": "Масло чёрного тмина (Nigella sativa) в удобной капсульной форме — по 500 мг в каждой."
+   },
+   "use": {
+    "uz": "An'anaviy ravishda immunitetni qo'llab-quvvatlash uchun qo'llaniladi.",
+    "ru": "Традиционно применяется для поддержки иммунитета."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Qora sedana yog'i 500 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Масло чёрного тмина 500 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 12,
+   "img": "makrobiotik.webp",
+   "cat": 5,
+   "price": 93900,
+   "badge": "",
+   "ben": [
+    5,
+    0
+   ],
+   "name": {
+    "uz": "Makrobiotik",
+    "ru": "Макробиотик"
+   },
+   "dose": {
+    "uz": "Probiotik · 60 kapsula",
+    "ru": "Пробиотик · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Probiotik kompleks — ichak mikroflorasi muvozanati uchun.",
+    "ru": "Пробиотический комплекс — для баланса кишечной микрофлоры."
+   },
+   "use": {
+    "uz": "Hazm qilish tizimining qulay ishlashini qo'llab-quvvatlaydi.",
+    "ru": "Поддерживает комфортную работу пищеварения."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Probiotik madaniyatlar",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Пробиотические культуры",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 13,
+   "img": "ashvagandha.webp",
+   "cat": 7,
+   "price": 91900,
+   "badge": "",
+   "ben": [
+    2,
+    1
+   ],
+   "name": {
+    "uz": "Ashvagandha + Vitamins",
+    "ru": "Ashvagandha + Vitamins"
+   },
+   "dose": {
+    "uz": "Adaptogen · 60 kapsula",
+    "ru": "Адаптоген · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Ashvagandha — Ayurveda an'anasidagi adaptogen o'simlik, vitaminlar bilan birga.",
+    "ru": "Ашваганда — растение-адаптоген из традиции аюрведы, в сочетании с витаминами."
+   },
+   "use": {
+    "uz": "Stressli kunlarda xotirjamlik va tetiklik muvozanati uchun.",
+    "ru": "Для баланса спокойствия и бодрости в стрессовые дни."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Ashvagandha ekstrakti",
+     "Vitaminlar kompleksi",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Экстракт ашваганды",
+     "Комплекс витаминов",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 14,
+   "img": "healthy-women.webp",
+   "cat": 0,
+   "price": 82900,
+   "badge": "",
+   "ben": [
+    13,
+    3
+   ],
+   "name": {
+    "uz": "Healthy Women",
+    "ru": "Healthy Women"
+   },
+   "dose": {
+    "uz": "Ayollar uchun · 60 kapsula",
+    "ru": "Для женщин · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Ayollar organizmining ehtiyojlarini hisobga olib tuzilgan kompleks.",
+    "ru": "Комплекс, составленный с учётом потребностей женского организма."
+   },
+   "use": {
+    "uz": "Kundalik energiya, teri va soch go'zalligi uchun.",
+    "ru": "Для ежедневной энергии, красоты кожи и волос."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Ayollar uchun vitamin-mineral kompleksi",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Витаминно-минеральный комплекс для женщин",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 15,
+   "img": "tiger.webp",
+   "cat": 1,
+   "price": 82900,
+   "badge": "",
+   "ben": [
+    1
+   ],
+   "name": {
+    "uz": "Tiger",
+    "ru": "Tiger"
+   },
+   "dose": {
+    "uz": "Erkaklar uchun · 60 kapsula",
+    "ru": "Для мужчин · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Erkaklar uchun maxsus formula — faol hayot tarzi uchun.",
+    "ru": "Специальная формула для мужчин — для активного образа жизни."
+   },
+   "use": {
+    "uz": "Kuch va chidamlilikni qo'llab-quvvatlash uchun.",
+    "ru": "Для поддержки силы и выносливости."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Erkaklar uchun kompleks",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Комплекс для мужчин",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 16,
+   "img": "makrofleks-advans.webp",
+   "cat": 7,
+   "price": 91000,
+   "badge": "",
+   "ben": [
+    10,
+    4
+   ],
+   "name": {
+    "uz": "Makrofleks Advans",
+    "ru": "Makrofleks Advans"
+   },
+   "dose": {
+    "uz": "Bo'g'imlar uchun · 60 kapsula",
+    "ru": "Для суставов · 60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Bo'g'imlar va tog'ay to'qimasi uchun kompleks formula.",
+    "ru": "Комплексная формула для суставов и хрящевой ткани."
+   },
+   "use": {
+    "uz": "Harakatchanlik va bo'g'imlar qulayligini saqlash uchun.",
+    "ru": "Для сохранения подвижности и комфорта суставов."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Bo'g'imlar uchun kompleks",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Комплекс для суставов",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 17,
+   "img": "weight-control.webp",
+   "cat": 7,
+   "price": 72900,
+   "badge": "",
+   "ben": [
+    14,
+    5
+   ],
+   "name": {
+    "uz": "Weight Control",
+    "ru": "Weight Control"
+   },
+   "dose": {
+    "uz": "60 kapsula",
+    "ru": "60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Muvozanatli ovqatlanish va jismoniy faollik bilan birga qo'llash uchun formula.",
+    "ru": "Формула для применения вместе со сбалансированным питанием и физической активностью."
+   },
+   "use": {
+    "uz": "Vazn nazorati dasturini qo'llab-quvvatlash uchun.",
+    "ru": "Для поддержки программы контроля веса."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Vazn nazorati uchun kompleks",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Комплекс для контроля веса",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 18,
+   "img": "artishok.webp",
+   "cat": 5,
+   "price": 28800,
+   "badge": "",
+   "ben": [
+    11,
+    5
+   ],
+   "name": {
+    "uz": "Artishok",
+    "ru": "Артишок"
+   },
+   "dose": {
+    "uz": "500 mg · 60 kapsula",
+    "ru": "500 мг · 60 капсул"
+   },
+   "actives": [
+    {
+     "n": {
+      "uz": "Artishok ekstrakti",
+      "ru": "Экстракт артишока"
+     },
+     "a": "500 mg"
+    }
+   ],
+   "desc": {
+    "uz": "Artishok ekstrakti — har bir kapsulada 500 mg.",
+    "ru": "Экстракт артишока — 500 мг в каждой капсуле."
+   },
+   "use": {
+    "uz": "Jigar va hazm qilish tizimi faoliyatini qo'llab-quvvatlash uchun an'anaviy o'simlik.",
+    "ru": "Традиционное растение для поддержки работы печени и пищеварения."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Artishok ekstrakti 500 mg",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Экстракт артишока 500 мг",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 19,
+   "img": "lecitin.webp",
+   "cat": 5,
+   "price": 86000,
+   "badge": "",
+   "ben": [
+    11,
+    7
+   ],
+   "name": {
+    "uz": "Lecitin",
+    "ru": "Лецитин"
+   },
+   "dose": {
+    "uz": "60 kapsula",
+    "ru": "60 капсул"
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Lesitin — hujayra membranalarining tabiiy tarkibiy qismi bo'lgan fosfolipidlar manbai.",
+    "ru": "Лецитин — источник фосфолипидов, естественных компонентов клеточных мембран."
+   },
+   "use": {
+    "uz": "Jigar va asab tizimi uchun muhim fosfolipidlar manbai.",
+    "ru": "Источник фосфолипидов, важных для печени и нервной системы."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq qabul qiling. Homiladorlik, emizish davrida yoki dori qabul qilayotgan bo'lsangiz, avval shifokor bilan maslahatlashing.",
+    "ru": "Принимайте согласно инструкции на упаковке. При беременности, кормлении грудью или приёме лекарств предварительно проконсультируйтесь с врачом."
+   },
+   "comp": {
+    "uz": [
+     "Lesitin",
+     "60 kapsula"
+    ],
+    "ru": [
+     "Лецитин",
+     "60 капсул"
+    ]
+   }
+  },
+  {
+   "id": 20,
+   "img": "stop-smoke-tea.webp",
+   "cat": 6,
+   "price": 60000,
+   "badge": "",
+   "ben": [
+    12
+   ],
+   "name": {
+    "uz": "Stop Smoke Tea",
+    "ru": "Stop Smoke Tea"
+   },
+   "dose": {
+    "uz": "30 dona",
+    "ru": "30 шт."
+   },
+   "actives": [],
+   "desc": {
+    "uz": "Chekishni tashlashga qaror qilganlar uchun yaratilgan o'simlik choyi.",
+    "ru": "Травяной чай, созданный для тех, кто решил бросить курить."
+   },
+   "use": {
+    "uz": "Kundalik choy ichish odatini foydali marosimga aylantiradi.",
+    "ru": "Превращает ежедневное чаепитие в полезный ритуал."
+   },
+   "how": {
+    "uz": "Qadoqdagi yo'riqnomaga muvofiq damlang va iching.",
+    "ru": "Заваривайте и пейте согласно инструкции на упаковке."
+   },
+   "comp": {
+    "uz": [
+     "O'simlik choyi aralashmasi",
+     "30 dona"
+    ],
+    "ru": [
+     "Смесь травяного чая",
+     "30 шт."
+    ]
+   }
+  }
+ ],
+ "cosmetics": [
+  {
+   "id": 101,
+   "slug": "toner",
+   "img": "toner.webp",
+   "fill": 1,
+   "price": 50000,
+   "badge": "new",
+   "step": 1,
+   "name": {
+    "uz": "Toner",
+    "ru": "Toner"
+   },
+   "kind": {
+    "uz": "Tonizatsiya qiluvchi vosita",
+    "ru": "Тонизирующее средство"
+   },
+   "tags": [
+    {
+     "uz": "Tonus",
+     "ru": "Тонус"
+    },
+    {
+     "uz": "Namlik",
+     "ru": "Увлажнение"
+    }
+   ],
+   "desc": {
+    "uz": "Yuz terisini keyingi parvarishga tayyorlaydi, namlaydi va teri holatini yaxshilashga yordam beradi.",
+    "ru": "Готовит кожу лица к дальнейшему уходу, увлажняет и помогает улучшить её состояние."
+   },
+   "use": {
+    "uz": "Parvarishning birinchi qadami: yuvingandan keyin terini tonuslaydi va serum hamda kremlarning yaxshi singishiga tayyorlaydi.",
+    "ru": "Первый шаг ухода: после умывания тонизирует кожу и готовит её к лучшему впитыванию сыворотки и кремов."
+   },
+   "how": {
+    "uz": "Tozalangan yuzga 15–20 sm masofadan sepib, kaftlar bilan yengil singdiring. Ertalab va kechqurun. Faqat tashqi foydalanish uchun. Ko'zga tushishidan saqlang. Qo'llashdan oldin bilak terisida sinab ko'ring.",
+    "ru": "Распылите на очищенное лицо с расстояния 15–20 см и мягко вбейте ладонями. Утром и вечером. Только для наружного применения. Избегайте попадания в глаза. Перед применением проверьте на коже запястья."
+   },
+   "comp": {
+    "uz": [
+     "To'liq tarkib qadoqda ko'rsatilgan"
+    ],
+    "ru": [
+     "Полный состав указан на упаковке"
+    ]
+   }
+  },
+  {
+   "id": 102,
+   "slug": "serum",
+   "img": "serum.webp",
+   "fill": 0.58,
+   "price": 80000,
+   "badge": "new",
+   "step": 2,
+   "name": {
+    "uz": "Serum",
+    "ru": "Serum"
+   },
+   "kind": {
+    "uz": "Yuz uchun serum",
+    "ru": "Сыворотка для лица"
+   },
+   "tags": [
+    {
+     "uz": "Namlantirish",
+     "ru": "Увлажнение"
+    },
+    {
+     "uz": "Faol komponentlar",
+     "ru": "Активные компоненты"
+    }
+   ],
+   "desc": {
+    "uz": "Terini namlantirib, faol komponentlarni yetkazadi.",
+    "ru": "Увлажняет кожу и доставляет активные компоненты."
+   },
+   "use": {
+    "uz": "Parvarishning ikkinchi qadami: tonerdan keyin, kremdan oldin surtiladi.",
+    "ru": "Второй шаг ухода: наносится после тоника и перед кремом."
+   },
+   "how": {
+    "uz": "Oz miqdorini toza teriga yuz va bo'yin bo'ylab surtib, to'liq singishini kuting. Faqat tashqi foydalanish uchun. Ko'zga tushishidan saqlang. Qo'llashdan oldin bilak terisida sinab ko'ring.",
+    "ru": "Нанесите небольшое количество на чистую кожу лица и шеи и дождитесь полного впитывания. Только для наружного применения. Избегайте попадания в глаза. Перед применением проверьте на коже запястья."
+   },
+   "comp": {
+    "uz": [
+     "To'liq tarkib qadoqda ko'rsatilgan"
+    ],
+    "ru": [
+     "Полный состав указан на упаковке"
+    ]
+   }
+  },
+  {
+   "id": 104,
+   "slug": "nourishing-cream",
+   "img": "nourishing-cream.webp",
+   "fill": 0.6,
+   "price": 70000,
+   "badge": "new",
+   "step": 3,
+   "name": {
+    "uz": "Nourishing Cream",
+    "ru": "Nourishing Cream"
+   },
+   "kind": {
+    "uz": "Oziqlantiruvchi krem",
+    "ru": "Питательный крем"
+   },
+   "tags": [
+    {
+     "uz": "Oziqlantirish",
+     "ru": "Питание"
+    },
+    {
+     "uz": "Teri barieri",
+     "ru": "Барьер кожи"
+    }
+   ],
+   "desc": {
+    "uz": "Terini oziqlantirish, yumshatish, namlikni saqlash va teri barierini qo'llab-quvvatlash uchun ishlatiladi.",
+    "ru": "Применяется для питания и смягчения кожи, сохранения влаги и поддержки кожного барьера."
+   },
+   "use": {
+    "uz": "Parvarishning uchinchi qadami: serumdan keyin. Kechqurun — yakuniy qadam, ertalab undan keyin SPF krem surtiladi.",
+    "ru": "Третий шаг ухода: после сыворотки. Вечером — финальный шаг, утром после него наносится SPF-крем."
+   },
+   "how": {
+    "uz": "Toza yuz va bo'yin terisiga yengil massaj harakatlari bilan surting. Faqat tashqi foydalanish uchun. Ko'zga tushishidan saqlang. Qo'llashdan oldin bilak terisida sinab ko'ring.",
+    "ru": "Нанесите на чистую кожу лица и шеи лёгкими массажными движениями. Только для наружного применения. Избегайте попадания в глаза. Перед применением проверьте на коже запястья."
+   },
+   "comp": {
+    "uz": [
+     "To'liq tarkib qadoqda ko'rsatilgan"
+    ],
+    "ru": [
+     "Полный состав указан на упаковке"
+    ]
+   }
+  },
+  {
+   "id": 103,
+   "slug": "spf-cream",
+   "img": "spf-cream.webp",
+   "fill": 0.64,
+   "price": 90000,
+   "badge": "new",
+   "step": 4,
+   "name": {
+    "uz": "SPF Cream",
+    "ru": "SPF Cream"
+   },
+   "kind": {
+    "uz": "Quyoshdan himoya qiluvchi krem",
+    "ru": "Солнцезащитный крем"
+   },
+   "tags": [
+    {
+     "uz": "UVA/UVB himoya",
+     "ru": "Защита UVA/UVB"
+    },
+    {
+     "uz": "Kundalik",
+     "ru": "Ежедневно"
+    }
+   ],
+   "desc": {
+    "uz": "Terini UVA/UVB nurlaridan himoya qiladi.",
+    "ru": "Защищает кожу от лучей UVA/UVB."
+   },
+   "use": {
+    "uz": "Ertalabki parvarishning so'nggi qadami: barcha vositalardan keyin, ko'chaga chiqishdan oldin.",
+    "ru": "Финальный шаг утреннего ухода: после всех средств, перед выходом на улицу."
+   },
+   "how": {
+    "uz": "Quyoshga chiqishdan 15–20 daqiqa oldin yetarli miqdorda surting, uzoq vaqt quyoshda bo'lsangiz har 2 soatda yangilang. Faqat tashqi foydalanish uchun. Ko'zga tushishidan saqlang. Qo'llashdan oldin bilak terisida sinab ko'ring.",
+    "ru": "Нанесите достаточное количество за 15–20 минут до выхода на солнце; при долгом пребывании обновляйте каждые 2 часа. Только для наружного применения. Избегайте попадания в глаза. Перед применением проверьте на коже запястья."
+   },
+   "comp": {
+    "uz": [
+     "To'liq tarkib qadoqda ko'rsatilgan"
+    ],
+    "ru": [
+     "Полный состав указан на упаковке"
+    ]
+   }
+  }
+ ],
+ "taxonomy": {
+  "BADGES": {
+   "best": {
+    "uz": "Bestseller",
+    "ru": "Бестселлер"
+   },
+   "pop": {
+    "uz": "Mashhur",
+    "ru": "Популярный"
+   },
+   "prem": {
+    "uz": "Premium",
+    "ru": "Премиум"
+   },
+   "new": {
+    "uz": "Yangi",
+    "ru": "Новинка"
+   }
+  },
+  "BENEFITS": [
+   {
+    "uz": "Immunitet",
+    "ru": "Иммунитет"
+   },
+   {
+    "uz": "Energiya",
+    "ru": "Энергия"
+   },
+   {
+    "uz": "Stress va uyqu",
+    "ru": "Стресс и сон"
+   },
+   {
+    "uz": "Teri va soch",
+    "ru": "Кожа и волосы"
+   },
+   {
+    "uz": "Suyak",
+    "ru": "Кости"
+   },
+   {
+    "uz": "Hazm",
+    "ru": "Пищеварение"
+   },
+   {
+    "uz": "Yurak",
+    "ru": "Сердце"
+   },
+   {
+    "uz": "Miya va xotira",
+    "ru": "Мозг и память"
+   },
+   {
+    "uz": "O'sish",
+    "ru": "Рост"
+   },
+   {
+    "uz": "Ko'rish",
+    "ru": "Зрение"
+   },
+   {
+    "uz": "Bo'g'imlar",
+    "ru": "Суставы"
+   },
+   {
+    "uz": "Jigar",
+    "ru": "Печень"
+   },
+   {
+    "uz": "Nafas yo'llari",
+    "ru": "Дыхательные пути"
+   },
+   {
+    "uz": "Gormonal muvozanat",
+    "ru": "Гормональный баланс"
+   },
+   {
+    "uz": "Vazn",
+    "ru": "Вес"
+   }
+  ],
+  "CATEGORIES": [
+   {
+    "uz": "Ayollar sog'lig'i",
+    "ru": "Женское здоровье"
+   },
+   {
+    "uz": "Erkaklar sog'lig'i",
+    "ru": "Мужское здоровье"
+   },
+   {
+    "uz": "Bolalar uchun",
+    "ru": "Для детей"
+   },
+   {
+    "uz": "Vitaminlar",
+    "ru": "Витамины"
+   },
+   {
+    "uz": "Yurak, miya va ko'rish",
+    "ru": "Сердце, мозг и зрение"
+   },
+   {
+    "uz": "Hazm va jigar",
+    "ru": "Пищеварение и печень"
+   },
+   {
+    "uz": "Immunitet va nafas",
+    "ru": "Иммунитет и дыхание"
+   },
+   {
+    "uz": "Faol hayot",
+    "ru": "Активная жизнь"
+   }
+  ],
+  "CATEGORY_BLURBS": {
+   "uz": [
+    "Gormonal muvozanat, teri va go'zallik uchun",
+    "Kuch, chidamlilik va kundalik faollik uchun",
+    "O'sish davridagi kundalik ehtiyoj uchun",
+    "Kundalik asos: D3 va K2 vitaminlari",
+    "Omega-3, Q10, diqqat va ko'rish uchun",
+    "Ichak mikroflorasi va jigar uchun",
+    "Mavsumiy yuklamalar va nafas yo'llari uchun",
+    "Stress, bo'g'imlar va vazn nazorati uchun"
+   ],
+   "ru": [
+    "Для гормонального баланса, кожи и красоты",
+    "Для силы, выносливости и дневной активности",
+    "Для ежедневных потребностей в период роста",
+    "Ежедневная основа: витамины D3 и K2",
+    "Омега-3, Q10, внимание и зрение",
+    "Для микрофлоры кишечника и печени",
+    "Для сезонных нагрузок и дыхательных путей",
+    "Для стресса, суставов и контроля веса"
+   ]
+  },
+  "SORT_MODES": [
+   {
+    "uz": "Tavsiya etilgan",
+    "ru": "Рекомендуемые"
+   },
+   {
+    "uz": "Arzondan qimmatga",
+    "ru": "Сначала дешёвые"
+   },
+   {
+    "uz": "Qimmatdan arzonga",
+    "ru": "Сначала дорогие"
+   },
+   {
+    "uz": "Nomi bo'yicha (A–Z)",
+    "ru": "По названию (А–Я)"
+   }
+  ]
+ },
+ "cities": [
+  {
+   "n": {
+    "uz": "Andijon",
+    "ru": "Андижан"
+   },
+   "lat": 40.7821,
+   "lon": 72.3442
+  },
+  {
+   "n": {
+    "uz": "Namangan",
+    "ru": "Наманган"
+   },
+   "lat": 40.9983,
+   "lon": 71.6726
+  },
+  {
+   "n": {
+    "uz": "Farg'ona",
+    "ru": "Фергана"
+   },
+   "lat": 40.3864,
+   "lon": 71.7864
+  },
+  {
+   "n": {
+    "uz": "Toshkent",
+    "ru": "Ташкент"
+   },
+   "lat": 41.2995,
+   "lon": 69.2401
+  },
+  {
+   "n": {
+    "uz": "Samarqand",
+    "ru": "Самарканд"
+   },
+   "lat": 39.627,
+   "lon": 66.975
+  },
+  {
+   "n": {
+    "uz": "Buxoro",
+    "ru": "Бухара"
+   },
+   "lat": 39.7747,
+   "lon": 64.4286
+  },
+  {
+   "n": {
+    "uz": "Qarshi",
+    "ru": "Карши"
+   },
+   "lat": 38.8606,
+   "lon": 65.7847
+  },
+  {
+   "n": {
+    "uz": "Nukus",
+    "ru": "Нукус"
+   },
+   "lat": 42.4531,
+   "lon": 59.6103
+  },
+  {
+   "n": {
+    "uz": "Navoiy",
+    "ru": "Навои"
+   },
+   "lat": 40.0844,
+   "lon": 65.3792
+  },
+  {
+   "n": {
+    "uz": "Jizzax",
+    "ru": "Джизак"
+   },
+   "lat": 40.125,
+   "lon": 67.88
+  },
+  {
+   "n": {
+    "uz": "Guliston",
+    "ru": "Гулистан"
+   },
+   "lat": 40.4897,
+   "lon": 68.7842
+  },
+  {
+   "n": {
+    "uz": "Termiz",
+    "ru": "Термез"
+   },
+   "lat": 37.2242,
+   "lon": 67.2783
+  },
+  {
+   "n": {
+    "uz": "Urganch",
+    "ru": "Ургенч"
+   },
+   "lat": 41.55,
+   "lon": 60.6333
+  },
+  {
+   "n": {
+    "uz": "Xiva",
+    "ru": "Хива"
+   },
+   "lat": 41.3783,
+   "lon": 60.3639
+  }
+ ]
+}

@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-19T00:00:00Z",
+  "title": "Design System: Family Group Admin",
+  "extensions": {
+    "colorMeta": {
+      "espresso": { "role": "primary", "displayName": "Espresso", "canonical": "#2B2118", "tonalRamp": ["#0F0A06", "#2B231D", "#494038", "#6A5F55", "#8C8076", "#AEA399", "#D1C7BE", "#F6EDE5"] },
+      "espresso-2": { "role": "primary", "displayName": "Espresso Raised", "canonical": "#3A2D21" },
+      "espresso-3": { "role": "primary", "displayName": "Espresso Deep", "canonical": "#1E1711" },
+      "gold": { "role": "secondary", "displayName": "Apothecary Gold", "canonical": "#C9A867", "tonalRamp": ["#170700", "#352100", "#563D00", "#795C1D", "#9C7E41", "#BDA16C", "#DFC696", "#FFECC2"] },
+      "gold-deep": { "role": "secondary", "displayName": "Deep Gold", "canonical": "#9A7638", "tonalRamp": ["#180600", "#362000", "#583C02", "#7C5B1F", "#9E7C42", "#BFA06D", "#E1C597", "#FFEBC3"] },
+      "gold-ink": { "role": "secondary", "displayName": "Gold Ink", "canonical": "#7A5C26" },
+      "gold-soft": { "role": "secondary", "displayName": "Gold Soft", "canonical": "#F1E6CF" },
+      "gold-tint": { "role": "secondary", "displayName": "Gold Tint", "canonical": "#FBF5E8" },
+      "ground": { "role": "neutral", "displayName": "Ivory Ground", "canonical": "#F6F1E9", "tonalRamp": ["#0D0B08", "#272520", "#45413C", "#65615A", "#86827B", "#A8A49E", "#CCC9C3", "#F1EEE9"] },
+      "panel": { "role": "neutral", "displayName": "Panel White", "canonical": "#FFFFFF" },
+      "panel-2": { "role": "neutral", "displayName": "Panel Warm", "canonical": "#FBF8F3" },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#E9E0D2", "tonalRamp": ["#0E0B05", "#29241C", "#474137", "#676055", "#898175", "#ABA499", "#CFC8BE", "#F3EEE5"] },
+      "line-2": { "role": "neutral", "displayName": "Hairline Strong", "canonical": "#D8CBB7" },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#241C15", "tonalRamp": ["#0F0A07", "#2A241E", "#48403A", "#695F57", "#8A8078", "#ACA39B", "#D0C7C0", "#F4EDE7"] },
+      "ink-2": { "role": "neutral", "displayName": "Ink Soft", "canonical": "#5A4F43" },
+      "ink-3": { "role": "neutral", "displayName": "Ink Faint", "canonical": "#75695B" },
+      "rail-text": { "role": "neutral", "displayName": "Rail Ivory", "canonical": "#E9DFCF" },
+      "rail-muted": { "role": "neutral", "displayName": "Rail Muted", "canonical": "#A79883" },
+      "cream-on-dark": { "role": "neutral", "displayName": "Cream on Dark", "canonical": "#FBF6EC" },
+      "state-new": { "role": "tertiary", "displayName": "Amber Waiting", "canonical": "#A86A12", "tonalRamp": ["#1E0100", "#401900", "#643400", "#8B5200", "#AF7429", "#D0995B", "#F1BF89", "#FFE6B7"] },
+      "state-confirmed": { "role": "tertiary", "displayName": "Slate Confirmed", "canonical": "#3E5C76", "tonalRamp": ["#010C19", "#132738", "#2C455A", "#48657E", "#6886A0", "#8DA9C1", "#B4CDE3", "#DCF2FF"] },
+      "state-packed": { "role": "tertiary", "displayName": "Violet-Grey Packed", "canonical": "#5C5A8C", "tonalRamp": ["#0A071F", "#222040", "#3E3C64", "#5D5B8A", "#7D7CAE", "#A0A0CE", "#C4C5EF", "#EAEBFF"] },
+      "state-shipping": { "role": "tertiary", "displayName": "Teal Shipping", "canonical": "#2F6C7A", "tonalRamp": ["#000F16", "#002B34", "#164955", "#326A78", "#548C9A", "#7CAEBB", "#A5D2DD", "#D0F6FF"] },
+      "state-delivered": { "role": "tertiary", "displayName": "Sage Delivered", "canonical": "#3D7651", "tonalRamp": ["#001102", "#042E16", "#1E4D30", "#396F4C", "#5B916C", "#82B391", "#AAD6B7", "#D4FADE"] },
+      "state-cancelled": { "role": "tertiary", "displayName": "Terracotta Cancelled", "canonical": "#A9432D", "tonalRamp": ["#260000", "#4B0500", "#742210", "#9E3E2A", "#C4614B", "#E58973", "#FFB19D", "#FFDAC8"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display (Cormorant)", "purpose": "Page titles, brand wordmark, login headings only." },
+      "headline": { "displayName": "KPI Figure", "purpose": "KPI values only; tabular." },
+      "title": { "displayName": "Panel Title", "purpose": "Panel, drawer and dialog headings (14.5 / 16 / 17px)." },
+      "body": { "displayName": "Body", "purpose": "Default UI text." },
+      "body-data": { "displayName": "Data", "purpose": "Tables, queue titles and dense lists; tabular figures." },
+      "label": { "displayName": "Label", "purpose": "Field and KPI labels in ink-2." },
+      "rail-group": { "displayName": "Rail Group", "purpose": "Navigation group names in the rail and command palette only." }
+    },
+    "shadows": [
+      { "name": "rest", "value": "0 1px 2px rgba(43, 33, 24, .06)", "purpose": "Panels, KPI strip, board cards, selected segment." },
+      { "name": "lift", "value": "0 4px 14px -4px rgba(43, 33, 24, .12), 0 1px 3px rgba(43, 33, 24, .06)", "purpose": "Primary button hover, chart tooltips." },
+      { "name": "overlay", "value": "0 24px 60px -18px rgba(30, 23, 17, .35), 0 4px 12px rgba(30, 23, 17, .08)", "purpose": "Drawers, dialogs, palette, toasts, mobile rail." },
+      { "name": "focus-halo", "value": "0 0 0 3px rgba(201, 168, 103, .25)", "purpose": "Focused inputs and the lit dot." }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "All state, drawer, dialog and rail transitions." },
+      { "name": "fast", "value": "160ms", "purpose": "Hover and colour changes." },
+      { "name": "med", "value": "220ms", "purpose": "Drawers, dialogs, toasts, rail collapse, switch thumb." },
+      { "name": "reduced-motion", "value": "0.01ms", "purpose": "All animation and transition collapsed under prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "wide", "value": "1280px" },
+      { "name": "rail-icons", "value": "1100px" },
+      { "name": "mobile", "value": "860px" },
+      { "name": "stack-tables", "value": "640px" },
+      { "name": "phone", "value": "520px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Espresso solid; the first action in any header or detail.",
+      "html": "<button class=\"ds-btn ds-btn-primary\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M20 6 9 17l-5-5\"/></svg>Tasdiqlash</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; height: 38px; padding: 0 15px; border: 1px solid transparent; border-radius: 10px; font: 700 13px/1 Manrope, system-ui, sans-serif; cursor: pointer; transition: background 160ms, border-color 160ms, box-shadow 160ms, transform 160ms; } .ds-btn svg { width: 16px; height: 16px; } .ds-btn:active { transform: translateY(1px); } .ds-btn:focus-visible { outline: 2px solid #9A7638; outline-offset: 2px; } .ds-btn-primary { background: #2B2118; color: #FBF6EC; } .ds-btn-primary:hover { background: #3A2D21; box-shadow: 0 4px 14px -4px rgba(43,33,24,.12), 0 1px 3px rgba(43,33,24,.06); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "White with strong hairline; secondary actions such as export or call.",
+      "html": "<button class=\"ds-btn2\">Excel</button>",
+      "css": ".ds-btn2 { display: inline-flex; align-items: center; height: 38px; padding: 0 15px; border: 1px solid #D8CBB7; border-radius: 10px; background: #FFFFFF; color: #241C15; font: 700 13px/1 Manrope, system-ui, sans-serif; cursor: pointer; transition: background 160ms, border-color 160ms; } .ds-btn2:hover { border-color: #75695B; background: #FBF8F3; } .ds-btn2:focus-visible { outline: 2px solid #9A7638; outline-offset: 2px; }"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Outlined terracotta for cancel and delete.",
+      "html": "<button class=\"ds-btn-danger\">Bekor qilish</button>",
+      "css": ".ds-btn-danger { display: inline-flex; align-items: center; height: 38px; padding: 0 15px; border: 1px solid #E6C3B9; border-radius: 10px; background: #FFFFFF; color: #A9432D; font: 700 13px/1 Manrope, system-ui, sans-serif; cursor: pointer; transition: background 160ms; } .ds-btn-danger:hover { background: #F7E5E0; } .ds-btn-danger:focus-visible { outline: 2px solid #9A7638; outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Labelled 38px field with deep-gold focus and gold halo.",
+      "html": "<label class=\"ds-field\"><span>Nomi (o'zbekcha)</span><input class=\"ds-input\" value=\"Omega-3\"></label>",
+      "css": ".ds-field { display: grid; gap: 6px; font-family: Manrope, system-ui, sans-serif; } .ds-field span { font: 700 12px/1.2 Manrope, system-ui, sans-serif; color: #5A4F43; } .ds-input { height: 38px; padding: 0 12px; border: 1px solid #D8CBB7; border-radius: 10px; background: #FFFFFF; color: #241C15; font: 500 14px Manrope, system-ui, sans-serif; outline: none; caret-color: #9A7638; transition: border-color 160ms, box-shadow 160ms; } .ds-input:hover { border-color: #75695B; } .ds-input:focus { border-color: #9A7638; box-shadow: 0 0 0 3px rgba(201,168,103,.25); }"
+    },
+    {
+      "name": "Rail Navigation",
+      "kind": "nav",
+      "refersTo": "rail",
+      "description": "Espresso rail with labelled groups, gold active mark and live counts.",
+      "html": "<nav class=\"ds-rail\"><div class=\"ds-rail-group\">Ish</div><a class=\"ds-rail-link is-active\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M3 10.5 12 3l9 7.5V21H3z\"/></svg><span>Navbat</span></a><a class=\"ds-rail-link\" href=\"#\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M9 8h6M9 12h6M9 16h4\"/></svg><span>Buyurtmalar</span><b class=\"ds-rail-count\">2</b></a></nav>",
+      "css": ".ds-rail { width: 248px; padding: 10px 12px; background: #2B2118; color: #E9DFCF; font-family: Manrope, system-ui, sans-serif; } .ds-rail-group { padding: 4px 10px 6px; font: 700 10.5px/1 Manrope, system-ui, sans-serif; letter-spacing: .13em; text-transform: uppercase; color: #A79883; } .ds-rail-link { position: relative; display: flex; align-items: center; gap: 11px; height: 38px; padding: 0 10px; border-radius: 10px; color: #E9DFCF; font: 600 13.5px/1 Manrope, system-ui, sans-serif; text-decoration: none; transition: background 160ms; } .ds-rail-link svg { width: 18px; height: 18px; color: #A79883; } .ds-rail-link:hover { background: #3A2D21; } .ds-rail-link:focus-visible { outline: 2px solid #C9A867; outline-offset: 2px; } .ds-rail-link.is-active { background: rgba(201,168,103,.14); color: #FFF8EA; } .ds-rail-link.is-active svg { color: #C9A867; } .ds-rail-link.is-active::before { content: ''; position: absolute; left: -12px; top: 9px; bottom: 9px; width: 3px; border-radius: 0 3px 3px 0; background: #C9A867; } .ds-rail-count { margin-left: auto; min-width: 22px; height: 20px; padding: 0 6px; display: inline-grid; place-items: center; border-radius: 99px; background: #C9A867; color: #1E1711; font: 800 11px/1 Manrope, system-ui, sans-serif; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Status Pill",
+      "kind": "chip",
+      "refersTo": "pill-status",
+      "description": "Hue-dark on hue-pale with a leading dot; one per order state.",
+      "html": "<span class=\"ds-pill ds-pill-new\">Yangi</span> <span class=\"ds-pill ds-pill-confirmed\">Tasdiqlandi</span> <span class=\"ds-pill ds-pill-delivered\">Yetkazildi</span> <span class=\"ds-pill ds-pill-cancelled\">Bekor</span>",
+      "css": ".ds-pill { display: inline-flex; align-items: center; gap: 6px; height: 24px; padding: 0 9px; border-radius: 99px; font: 700 11.5px/1 Manrope, system-ui, sans-serif; } .ds-pill::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: currentColor; } .ds-pill-new { background: #FBEFD9; color: #A86A12; } .ds-pill-confirmed { background: #E7EDF3; color: #3E5C76; } .ds-pill-delivered { background: #E3F0E7; color: #3D7651; } .ds-pill-cancelled { background: #F7E5E0; color: #A9432D; }"
+    },
+    {
+      "name": "Panel",
+      "kind": "card",
+      "refersTo": "panel",
+      "description": "White hairline panel on the ivory ground with head and body.",
+      "html": "<section class=\"ds-panel\"><header class=\"ds-panel-head\">Mahsulotlar</header><div class=\"ds-panel-body\">Collagen — 138 800 so'm</div></section>",
+      "css": ".ds-panel { background: #FFFFFF; border: 1px solid #E9E0D2; border-radius: 14px; box-shadow: 0 1px 2px rgba(43,33,24,.06); font-family: Manrope, system-ui, sans-serif; color: #241C15; } .ds-panel-head { padding: 14px 18px; border-bottom: 1px solid #E9E0D2; font: 700 14.5px/1.3 Manrope, system-ui, sans-serif; } .ds-panel-body { padding: 18px; font: 500 14px/1.5 Manrope, system-ui, sans-serif; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Queue Item (lit / open)",
+      "kind": "custom",
+      "refersTo": "queue-item-open",
+      "description": "The action queue row; lit until opened, gold-tint when open.",
+      "html": "<div class=\"ds-q\"><button class=\"ds-qitem is-lit\"><span class=\"ds-qtitle\">Munisa Karimova</span><span class=\"ds-qmeta\">22 daq. oldin</span></button><button class=\"ds-qitem is-open\"><span class=\"ds-qtitle\">FG-2026-974027 · Islom Qodirov</span><span class=\"ds-qmeta\">16 daq. oldin</span></button><button class=\"ds-qitem\"><span class=\"ds-qtitle\">FG-2026-903699 · Jasur Aliyev</span><span class=\"ds-qmeta\">1 soat oldin</span></button></div>",
+      "css": ".ds-q { width: 400px; background: #FFFFFF; border: 1px solid #E9E0D2; border-radius: 14px; overflow: hidden; font-family: Manrope, system-ui, sans-serif; } .ds-qitem { display: flex; width: 100%; justify-content: space-between; gap: 12px; padding: 13px 14px; border: 0; border-bottom: 1px solid #E9E0D2; background: none; text-align: left; cursor: pointer; transition: background 160ms; } .ds-qitem:hover { background: #FBF8F3; } .ds-qitem:focus-visible { outline: 2px solid #9A7638; outline-offset: -2px; } .ds-qtitle { font-size: 13.5px; font-weight: 600; color: #241C15; } .ds-qmeta { font-size: 11.5px; color: #75695B; white-space: nowrap; } .ds-qitem.is-lit { background: linear-gradient(90deg, rgba(201,168,103,.16), rgba(201,168,103,.05) 70%); } .ds-qitem.is-lit .ds-qtitle { font-weight: 800; } .ds-qitem.is-lit .ds-qtitle::before { content: ''; display: inline-block; width: 7px; height: 7px; margin-right: 7px; border-radius: 50%; background: #9A7638; vertical-align: 2px; box-shadow: 0 0 0 3px rgba(201,168,103,.25); } .ds-qitem.is-lit .ds-qmeta { color: #7A5C26; font-weight: 700; } .ds-qitem.is-open { background: #FBF5E8; }"
+    },
+    {
+      "name": "Bottle Stock Gauge",
+      "kind": "custom",
+      "refersTo": "bottle",
+      "description": "Signature: stock drawn as an apothecary bottle filling with gold; amber when low, dashed terracotta when out.",
+      "html": "<div class=\"ds-bottles\"><div class=\"ds-bottle\"><svg viewBox=\"0 0 46 64\"><defs><clipPath id=\"dsb1\"><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\"/></clipPath></defs><path d=\"M14 4 H32 V14 H14 Z\" fill=\"#F4EFE6\" stroke=\"#D8CBB7\"/><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\" fill=\"#FBF8F3\"/><rect clip-path=\"url(#dsb1)\" x=\"0\" y=\"30\" width=\"46\" height=\"34\" fill=\"#9A7638\" opacity=\".85\"/><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\" fill=\"none\" stroke=\"#D8CBB7\" stroke-width=\"1.2\"/><rect x=\"11\" y=\"34\" width=\"24\" height=\"14\" rx=\"1.5\" fill=\"#FBF6EC\" opacity=\".92\"/></svg><b>Omega-3</b><span>305 dona</span></div><div class=\"ds-bottle is-low\"><svg viewBox=\"0 0 46 64\"><defs><clipPath id=\"dsb2\"><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\"/></clipPath></defs><path d=\"M14 4 H32 V14 H14 Z\" fill=\"#F4EFE6\" stroke=\"#D8CBB7\"/><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\" fill=\"#FBF8F3\"/><rect clip-path=\"url(#dsb2)\" x=\"0\" y=\"56\" width=\"46\" height=\"8\" fill=\"#A86A12\" opacity=\".85\"/><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\" fill=\"none\" stroke=\"#D8CBB7\" stroke-width=\"1.2\"/></svg><b>Vision</b><span>12 dona</span></div><div class=\"ds-bottle is-out\"><svg viewBox=\"0 0 46 64\"><path d=\"M14 4 H32 V14 H14 Z\" fill=\"#F4EFE6\" stroke=\"#D8CBB7\"/><path d=\"M15 14 H31 V19 Q38 21 38 29 V58 Q38 62 34 62 H12 Q8 62 8 58 V29 Q8 21 15 19 Z\" fill=\"#FBF8F3\" stroke=\"#A9432D\" stroke-width=\"1.2\" stroke-dasharray=\"3 2\"/></svg><b>Makrofleks</b><span>Tugagan</span></div></div>",
+      "css": ".ds-bottles { display: grid; grid-template-columns: repeat(3, 104px); gap: 6px 10px; font-family: Manrope, system-ui, sans-serif; } .ds-bottle { display: grid; justify-items: center; gap: 6px; padding: 12px 6px 10px; border-radius: 10px; text-align: center; transition: background 160ms; } .ds-bottle:hover { background: #FBF8F3; } .ds-bottle svg { width: 46px; height: 64px; } .ds-bottle b { font-size: 12px; font-weight: 700; color: #241C15; } .ds-bottle span { font-size: 11.5px; color: #75695B; font-variant-numeric: tabular-nums; } .ds-bottle.is-low span { color: #A86A12; font-weight: 800; } .ds-bottle.is-out span { color: #A9432D; font-weight: 800; }"
+    },
+    {
+      "name": "Segmented Filter",
+      "kind": "chip",
+      "refersTo": "segmented-active",
+      "description": "Espresso-tinted trough; active segment lifts to white.",
+      "html": "<div class=\"ds-seg\"><button aria-pressed=\"true\">Hammasi <i>37</i></button><button aria-pressed=\"false\">Kam qoldi <i>4</i></button><button aria-pressed=\"false\">Kosmetologiya</button></div>",
+      "css": ".ds-seg { display: inline-flex; gap: 2px; padding: 3px; border-radius: 10px; background: rgba(43,33,24,.06); font-family: Manrope, system-ui, sans-serif; } .ds-seg button { display: inline-flex; align-items: center; gap: 7px; height: 30px; padding: 0 12px; border: 0; border-radius: 7px; background: none; font: 700 12.5px/1 Manrope, system-ui, sans-serif; color: #5A4F43; cursor: pointer; transition: background 160ms, color 160ms; } .ds-seg button:hover { color: #241C15; } .ds-seg button:focus-visible { outline: 2px solid #9A7638; outline-offset: 2px; } .ds-seg button[aria-pressed='true'] { background: #FFFFFF; color: #241C15; box-shadow: 0 1px 2px rgba(43,33,24,.06); } .ds-seg i { font-style: normal; font-size: 11px; color: #75695B; font-variant-numeric: tabular-nums; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Apothecary Back Room",
+    "overview": "This is the room behind the Family Group shop counter: the same espresso, gold and ivory as familygroup.store, put to work. A dark espresso rail holds the whole business in labelled groups. The work happens on a warm ivory ground where white panels sit on hairline warm borders. Gold is not decoration. It marks what is live, what is selected, and what still needs a person. The home screen is a queue, not a wall of KPI tiles. An unhandled item stays lit with a warm gold wash, a gold dot and a bold title until someone opens it.\n\nDensity suits office work: 14px Manrope body, 38px controls, 16px gaps, tabular figures in every column that holds money or counts. Cormorant Garamond appears only on the brand mark, page titles and the login art panel, so the apothecary voice shows at the edges and never in the data. Product thumbnails are real bottle cutouts on a soft ivory radial. The signature component draws stock as an apothecary bottle filling with gold.\n\nState colour is muted and earthy (amber, slate, violet-grey, teal, sage, terracotta), always as dark text on a pale tint of the same hue. Nothing in the system is saturated or loud.",
+    "keyCharacteristics": [
+      "Espresso rail plus ivory ground plus white hairline panels; three planes only.",
+      "Gold means live, active or unseen. It never fills large areas.",
+      "The serif is for brand and page titles only. All UI and data use Manrope.",
+      "Tabular lining numerals wherever figures are compared.",
+      "Muted state pairs: hue-dark text on a hue-pale tint, with a 6px dot.",
+      "Soft, warm-tinted shadows. Hairline borders carry most of the separation."
+    ],
+    "rules": [
+      { "name": "The Lit-Until-Opened Rule", "body": "An unseen item carries a gold wash (gold at 16% fading to 5% across 70%), a 7px deep-gold dot with a 3px gold halo before a bold (800) title, and a gold-ink timestamp. Opening it moves it to gold-tint and the marker goes away. Nothing else in the UI uses this combination.", "section": "colors" },
+      { "name": "The Gold Means Live Rule", "body": "Gold surfaces are small: counts, dots, underlines, a 3px rail bar, focus rings. Gold-tint is the largest gold area allowed, and only for the selected or opened row.", "section": "colors" },
+      { "name": "The State Pair Rule", "body": "Every status uses its hue-dark text on its hue-pale tint, with no border. Never put a state hue on white as a solid fill.", "section": "colors" },
+      { "name": "The Serif Stays at the Door Rule", "body": "Cormorant appears on the brand mark, page titles and login headings. Never on numbers, buttons, table cells, panel titles or KPIs.", "section": "typography" },
+      { "name": "The Tabular Figures Rule", "body": "Money, counts, quantities, deltas, chart labels and rail counts set `tabular-nums lining-nums`. The body defaults to lining numerals.", "section": "typography" },
+      { "name": "The Warm Shadow Rule", "body": "Every shadow is tinted with espresso, never grey or black. Overlay scrims use espresso-3 at 40–42%.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do land staff on the action queue. Make unseen items lit (gold wash, deep-gold dot, 800 title) and drop the mark once the item is opened.",
+      "Do keep gold small and meaningful: counts, dots, the 3px rail bar, focus rings, underlines. Use gold-tint for at most the selected or opened row.",
+      "Do set every status as its hue-dark on hue-pale pair with a 6px dot.",
+      "Do use tabular lining numerals for every money, count and quantity column.",
+      "Do separate planes with 1px warm hairlines and the Rest shadow. Save the Overlay shadow for drawers, dialogs, the palette and toasts.",
+      "Do show products as real bottle cutouts on the ivory radial thumbnail, and stock as the bottle gauge.",
+      "Do label demo data with the amber demo badge."
+    ],
+    "donts": [
+      "Don't set Cormorant Garamond on numbers, buttons, table cells, panel titles or KPI values.",
+      "Don't use neutral grey or black shadows or scrims. Tint them with espresso.",
+      "Don't fill large areas with gold or a saturated state hue. Use state hues as text on their pale tint.",
+      "Don't make a KPI-tile wall the landing screen. Today's numbers live in one slim strip above the queue.",
+      "Don't add uppercase tracked labels above headings. Uppercase tracking is reserved for rail and palette group names and the stacked-table data labels.",
+      "Don't mark unseen state with a typed glyph. Use the CSS dot from the lit treatment."
+    ]
+  }
+}
